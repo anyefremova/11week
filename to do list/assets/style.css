@@ -1,0 +1,35 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0;
+}
+
+.container {
+    margin: auto;
+}
+
+#entry__field {
+    height: 6vh;
+    width: 20vw;
+}
+
+#add__button {
+    margin-left: 0.5vw;
+    background-color: green;
+    color: white;
+}
+
+.block__addition,
+.block__tasks {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    list-style: none;
+}
+
+li.done {
+    text-decoration: line-through;
+    color: gray;
+}
